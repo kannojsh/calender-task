@@ -5,7 +5,7 @@ const geocode=require('./utils/geocode')
 const forecast =require('./utils/forecast')
 const { query } = require('express')
 const app = express()
-//Define path for express config
+//Define path for express config 
 const publicDirectoryPath = path.join(__dirname,'../public')
 const viewPath=path.join(__dirname,'../template/views')
 const partialsPath = path.join(__dirname, '../template/partials')
